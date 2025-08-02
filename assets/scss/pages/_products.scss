@@ -1,0 +1,23 @@
+.category {
+  transition: color 0.3s ease;
+}
+
+.category a:hover {
+  color: $primary-500;
+}
+
+.product-item {
+  transition: transform 0.3s ease;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+}
+
+.product-page {
+  transition: background-color 0.3s ease;
+}
+
+.product-page button:hover {
+  background-color: $neutral-200;
+}

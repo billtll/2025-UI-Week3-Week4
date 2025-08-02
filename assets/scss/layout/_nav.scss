@@ -1,0 +1,10 @@
+.bi.bi-person {
+  padding-right: 8px;
+  vertical-align: middle;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.bi.bi-person:hover {
+  color: $primary-400;
+}

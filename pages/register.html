@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <title>URBNSTEP｜登入</title>
+  </head>
+  <body>
+    <%- include('./layout/nav'); -%>
+
+    <img
+      src="../assets/images/login-sm.png"
+      alt="login banner"
+      class="none block-md"
+    />
+
+    <main class="container mx-auto">
+      <section class="py-64 py-md-0">
+        <div class="row">
+          <div class="col-5 none-md">
+            <img src="../assets/images/login.png" alt="login banner" />
+          </div>
+          <div class="col-7 col-md-4">
+            <div class="login-section">
+              <div class="mb-32 mb-md-24">
+                <h3 class="h3 h4-md text-center">歡迎！</h3>
+              </div>
+              <div class="mb-32 mb-md-24">
+                <div class="flex text-center">
+                  <h2 class="w-half py-12 border-b-2-neutral-300">
+                    <a href="login.html" class="h6 text-secondary">登入</a>
+                  </h2>
+                  <h2 class="w-half py-12 border-b-2-neutral-900">
+                    <a href="register.html" class="h6"> 註冊 </a>
+                  </h2>
+                </div>
+              </div>
+              <ul>
+                <li
+                  class="p-12 mb-8 bg-neutral-0 border-1-neutral-300 radius-sm login-category"
+                >
+                  <a href="#">
+                    <div class="flex align-center">
+                      <div class="mr-12">
+                        <img
+                          src="../assets/images/facebook.svg"
+                          alt="facebook"
+                        />
+                      </div>
+                      <p class="paragraph-md">Facebook 註冊</p>
+                    </div>
+                  </a>
+                </li>
+                <li
+                  class="p-12 mb-8 bg-neutral-0 border-1-neutral-300 radius-sm login-category"
+                >
+                  <a href="#">
+                    <div class="flex align-center">
+                      <div class="mr-12">
+                        <img src="../assets/images/apple.svg" alt="facebook" />
+                      </div>
+                      <p class="paragraph-md">Apple 註冊</p>
+                    </div>
+                  </a>
+                </li>
+                <li
+                  class="p-12 mb-8 bg-neutral-0 border-1-neutral-300 radius-sm login-category"
+                >
+                  <a href="#">
+                    <div class="flex align-center">
+                      <div class="mr-12">
+                        <img src="../assets/images/google.svg" alt="facebook" />
+                      </div>
+                      <p class="paragraph-md">Google 註冊</p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

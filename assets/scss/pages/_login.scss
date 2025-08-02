@@ -1,0 +1,23 @@
+.login-section {
+  background-image: url("../images/login-bg.png");
+  padding-block: 120px;
+  border-radius: 12px;
+  padding-inline: 80px;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .login-section {
+    background-image: none;
+    padding-block: 32px;
+    padding-inline: 0px;
+  }
+}
+
+.login-category {
+  transition: transform 0.3s ease;
+}
+
+.login-category:hover {
+  transform: scale(1.03);
+}

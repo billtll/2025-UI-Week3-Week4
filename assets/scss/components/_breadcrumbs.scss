@@ -1,0 +1,25 @@
+.breadcrumbs-item + .breadcrumbs-item::before {
+  content: "/";
+  padding-inline: 12px;
+  color: $neutral-300;
+  font-weight: 700;
+}
+
+.breadcrumbs-item {
+  display: flex;
+  font-weight: 500;
+}
+
+.breadcrumbs-link {
+  color: $neutral-600;
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs-item + .breadcrumbs-item::before {
+    padding-inline: 8px;
+  }
+
+  .breadcrumbs-item {
+    font-size: 14px;
+  }
+}

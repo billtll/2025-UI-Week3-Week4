@@ -1,0 +1,27 @@
+.container-story {
+  max-width: 880px;
+  margin-inline: auto;
+  padding-inline: 12px;
+}
+
+.bi.bi-arrow-up-right {
+  padding-right: 8px;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.header {
+  background-image: url("../images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-block: 151px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .header {
+    background-image: url("../images/hero-sm.png");
+    padding-block: 87px;
+  }
+}

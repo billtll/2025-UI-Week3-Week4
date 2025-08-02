@@ -1,0 +1,52 @@
+.link-primary {
+  color: $primary-400;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.link-primary i,
+.link-primary span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.link-primary span {
+  color: $primary-400;
+  font-weight: 500;
+  border-bottom: 1px solid $primary-400;
+  padding-bottom: 3px;
+}
+
+.link-primary:hover,
+.link-primary:focus,
+.link-primary span:hover,
+.link-primary span:focus {
+  color: $primary-500;
+}
+
+.link-primary.disabled {
+  opacity: 40%;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.link-neutral {
+  display: block;
+  color: $neutral-900;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.link-neutral:hover {
+  color: $neutral-600;
+}
+
+.link-neutral:focus {
+  text-underline-offset: 12px;
+}
+
+.link-neutral.disabled {
+  opacity: 40%;
+  pointer-events: none;
+  cursor: not-allowed;
+}

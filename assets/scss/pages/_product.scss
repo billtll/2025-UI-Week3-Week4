@@ -1,0 +1,63 @@
+.product-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-inline: -4px;
+}
+
+.product-col {
+  width: calc(100% / 12 * 6);
+  padding-inline: 4px;
+}
+
+.btn-product-size {
+  width: 160px;
+}
+
+.btn-product-size.active,
+.btn-product-size:hover,
+.btn-product-size:active {
+  border: 1px solid $neutral-900;
+}
+
+@media (max-width: 768px) {
+  .btn-appointment-md {
+    // 門市預約按鈕寬度: 100%-gap(8px) - favourites btn(48px)
+    width: calc(100% - 8px - 48px);
+  }
+
+  .btn-favourites-md {
+    width: 48px;
+    height: 48px;
+  }
+
+  .bi.bi-heart {
+    vertical-align: middle;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-like-md-row {
+    flex-wrap: nowrap;
+    margin-inline: -8px;
+
+    img {
+      min-width: 300px;
+    }
+  }
+
+  .product-like-md-col {
+    width: unset;
+    padding-inline: 8px;
+  }
+}
+
+.cta-favourites,
+.cta-store {
+  transition: transform 0.3s ease;
+}
+
+.cta-favourites:hover,
+.cta-store:hover {
+  transform: scale(1.03);
+}
